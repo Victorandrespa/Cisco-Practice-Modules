@@ -37,7 +37,7 @@ let books = [{
 }
 ];
 
-console.log( books[2].autor );
+console.log(books[2].autor);
 
 
 // Add a new book to the collection, agregar al final
@@ -71,4 +71,33 @@ console.log(books[0].titulo);
 
 let sum = books[0].pages + books[1].pages + books[2].pages;
 
-console.log("Suma de Paginas: " + sum );
+console.log("Suma de Paginas: " + sum);
+
+
+
+// Scenario practice Test
+
+
+let contacts = [{
+    name: "Maxwell Wright",
+    phone: "(0191) 719 6495",
+    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+}, {
+    name: "Raja Villarreal",
+    phone: "0866 398 2895",
+    email: "posuere.vulputate@sed.com"
+}, {
+    name: "Helen Richards",
+    phone: "0800 1111",
+    email: "libero@convallis.edu"
+}];
+
+contacts.push( {
+        name: "Maisie Haley" ,
+        phone: "09135313030",
+        email: "risus.Quisque@urna.ca."
+    }
+);
+
+console.log(contacts[0].name +"/"+ contacts[0].phone +"/"+ contacts[0].email ) ;
+console.log(contacts[3].name +"/"+ contacts[3].phone +"/"+ contacts[3].email ) ;
